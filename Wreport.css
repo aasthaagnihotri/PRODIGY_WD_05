@@ -9,11 +9,12 @@
 
 .container {
     color: #000000;
-    background-color: #7f9297;
-    padding: 5rem;
+    background-color: #79a0a8;
+    padding: 2rem;
     width: 80%;
     margin: 5rem auto;
     border-radius: 10px;
+    background: linear-gradient(30deg,#6e8d9bb7,#e0e9eead), url('./ground.jpg'); 
 }
 
 .weather_header {
@@ -24,7 +25,7 @@
 
 input {
     border: none;
-    background: #2f3d46;
+    background: #7f919b;
     outline: none;
     color: #000000;
     padding: 0.5rem 2.5rem;
@@ -104,7 +105,7 @@ input::placeholder {
 .weather_card {
     display: flex;
     align-items: center;
-    background: #87b0bd;
+    background: #666b6d;
     padding: 1rem;
     border-radius: 10px;
 }
